@@ -7,8 +7,7 @@ A simple **Dino game** for the **ESP32-C3-SUPERMINI**, designed to run on a smal
 ## Features
 
 - Classic dinosaur runner game  
-- Static 16×16 dino sprite  
-- Custom 16×16 obstacle sprite  
+- 16×16 sprites  
 - Score tracking  
 - Simple one-button jump control  
 
@@ -36,33 +35,8 @@ A simple **Dino game** for the **ESP32-C3-SUPERMINI**, designed to run on a smal
 
 ---
 
-## How to Use
-
-1. Connect the hardware according to the pinout above.  
-2. Upload the game code to your ESP32-C3 using Arduino IDE.  
-3. Press the button to make the dino jump over obstacles.  
-4. Score increases with each obstacle passed.  
-5. If you hit an obstacle, the game displays **GAME OVER** and your score.  
-
----
-
-## Display
-
-- 128×64 pixel I2C OLED  
-- Ground line drawn at the bottom of the screen  
-- Dino and obstacles are 16×16 pixels  
-
----
-
 ## Libraries Required
 
 - [Adafruit GFX Library](https://github.com/adafruit/Adafruit-GFX-Library)  
 - [Adafruit SSD1306 Library](https://github.com/adafruit/Adafruit_SSD1306)  
 
-Make sure to install these in the Arduino IDE **before uploading**.  
-
----
-
-## License
-
-Free to use and modify. No warranty provided.  
