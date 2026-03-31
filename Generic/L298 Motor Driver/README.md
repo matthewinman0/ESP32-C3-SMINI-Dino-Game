@@ -35,7 +35,7 @@ On the ESP32, PWM signals are generated using the **LEDC peripheral**, which pro
 By setting these pins HIGH or LOW in different combinations, you can make the motor spin forward, reverse, coast, or brake.
 
 ---
----
+
 ## Direction Control Truth Table
 
 ### Motor A (IN1 / IN2)
